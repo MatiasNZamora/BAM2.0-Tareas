@@ -10,6 +10,7 @@
     --color-text: #fff;
     --bg-color: #030328;
     --color-secondary: #B5FDA5;
+    --color-terciary: #000000;
 }
 
 body {
@@ -117,10 +118,11 @@ section {
 
 .container-video h2 {
     margin-bottom: 20px;
+    font-size: 2.5rem;
 }
 
 .container-video video {
-    width: 60%;
+    width: 80%;
     border: 2px solid var(--color-secondary)
 } 
 
@@ -132,6 +134,7 @@ section {
 /* --------- fin del video --------- */
 
 /* --------- Container Personaje --------- */
+
 
 .personaje-title {
     margin: 6rem 0rem 4rem 0rem;
@@ -156,13 +159,55 @@ section {
     text-align: center;
 }
 
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--color-secondary); }
+}
+
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    margin-top: 3rem;
+    padding: 1em 2em;
+    color:var(--color-text);
+}
+
+button:hover {  
+    color: var(--color-secondary);
+    transition: 0.25s;
+} 
+
+button:focus { 
+  border-color: var(--hover);
+  color: var(--color-text);
+}
+
+button a, :visited { 
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    color: var(--color-secondary);
+    transition: 0.25s;
+}
+
 /* --------- fin del Container Personaje --------- */
 
-/* --------- Botones --------- */
-
-
-/* --------- fin de botones --------- */
-
-
 /* --------- Footer --------- */
+
 /* --------- fin del footer --------- */
