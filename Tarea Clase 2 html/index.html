@@ -5,35 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css">
-    <title> Tarea 1 - Matias N Zamora </title>
+    <title> Rick and Morty - Matias N Zamora </title>
   </head>
   <body>
     <header>
-        <h1>Rick Sanchez</h1>
+        <div class="navbar">
+          <div class="logo">
+            <img class="const-img-logo" alt="logo.svg" src="https://hbomax-images.warnermediacdn.com/2022-08/tt.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com" />
+          </div>
+          <ul>
+              <li>
+                  <a href=""> Inicio </a>
+              </li>
+              <li>
+                  <a href="#descript"> Descripcion </a>
+              </li>
+              <li>
+                  <a href="#trailer"> Trailer </a>
+              </li>
+              <li>
+                  <a href="#personajes"> Personajes </a>
+              </li>
+          </ul>
+      </div>
     </header>
-    <nav>
-        <ul>
-            <li>
-                <a href=""> Inicio </a>
-            </li>
-            <li>
-                <a href=""> Descripcion </a>
-            </li>
-            <li>
-                <a href=""> Historia </a>
-            </li>
-            <li>
-                <a href=""> Video </a>
-            </li>
-        </ul>
-    </nav>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, omnis?
-      Esse quia quam minus. Magni, quae quidem laborum repudiandae nulla illo
-      sequi labore ducimus similique? Facere amet quo soluta voluptatibus!
-    </p>
+    <div class="intro-video">
+      <video src="./assets/init.mp4" width="100%" autoplay loop ></video>
+    </div>
+    <Section id="descript">
+      <div class="descript">
+        <div class="content">
+          <h2>¡ Rick Sanchez !</h2>
+          <p>
+            Es un hombre que ha pasado gran parte de su vida viajando a través de diversas galaxias.
+            Para él, la Tierra se llama Planeta Tierra del Universo C-137. <br>
+            Es irresponsable, asocial, chiflado, ambicioso y desconsiderado ante su propia familia.
+          </p><br>
+          <p>
+            El dúo formado por el genial (y amoral) científico Rick y su valiente pero no muy inteligente nieto Morty surgió como
+            una parodia de la trilogía Regreso al futuro desarrollada por Justin Roiland en varios provocadores cortometrajes. Sin
+            embargo, en su versión para la serie, es una de las parejas más atractivas del ámbito, a la altura de Peter Griffin y su
+            perro Brian, Cartman y Butters o Homer y…, bueno, Homer y cualquier otro personaje con el que comparta plano.
+          </p>
+        </div>
+        <img src="./assets/PngItem_438006.png" width="200px" alt="rickandmorty">
+      </div>
+    </Section  >
+    <section id="trailer" class="container-video">
+      <video src="./assets/rickadnmorty.mp4" controls></video>
+    </section>
+    <section id="personajes">
+      <div class="personaje-title">
+        <h2 > Personajes principales </h2>
+      </div>
+      <div class="container-personaje">
+        <div>
+          <img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" alt="Morty">
+          <p> Morty Smith </p>
+        </div>
+        <div>
+          <img src="https://rickandmortyapi.com/api/character/avatar/4.jpeg" alt="Beth">
+          <p> Beth Smith </p>
+        </div>
+        <div>
+          <img src="https://rickandmortyapi.com/api/character/avatar/3.jpeg" alt="Summer">
+          <p> Summer Smith </p>
+        </div>
+        <div>
+          <img src="https://rickandmortyapi.com/api/character/avatar/5.jpeg" alt="Jerry">
+          <p> Jerry Smith </p>
+        </div>
+      </div>
+      <button class="button-line">
     <footer>
-      <h2> Matias N Zamora </h2>
+      
     </footer>
   </body>
 </html>
