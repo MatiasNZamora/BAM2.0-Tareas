@@ -5,18 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../styles.css">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Personajes</title>
+    <title> Personajes </title>
 </head>
 <body>
     <header>
         <div class="navbar">
           <div class="logo">
-            <img class="const-img-logo" alt="logo.svg" src="https://hbomax-images.warnermediacdn.com/2022-08/tt.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com" />
+            <a href="./../index.html"><img class="const-img-logo" alt="logo.svg" src="https://hbomax-images.warnermediacdn.com/2022-08/tt.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com"/></a> 
           </div>
           <ul>
               <li>
-                  <a href=""> Inicio </a>
+                  <a href=".././index.html"> Inicio </a>
               </li>
               <li>
                   <a href="#descript"> Descripcion </a>
@@ -30,10 +29,12 @@
           </ul>
       </div>
     </header>
-
-
-
-
-    
+    <div class="personaje-container">
+        <p class="matias">Estos son traidos con una funcion fech de JS</p>
+        <h1> Personajes importantes </h1>
+        <ul id="lista" class="lista">
+        </ul>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>
