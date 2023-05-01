@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>InfoLab</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <title>Hello, world!</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/1682963598.ico">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand ms-3" href="/index.html">
+            <img class='w-25' src="/assets/logo.png" alt="">
+            InfoLab Solutions
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" justify-content-end collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav mx-5">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/page/contact.html"> Contact </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/page/about.html"> About </a>
+                </li>
+                <li class="nav-item dropdown">
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Form de contacto -->
+    <div class='container my-5 py-5'>
+        <div class='row mb-5'>
+            <div class='col-12'>
+                <h3 class='fs-5 text-center mb-0'> Contactate con Nosotros </h3>
+                <h1 class='display-6 text-center mb-4'> ¿ Tienes alguna <b> Pregunta ? </b></h1>
+                <hr class='w-25 mx-auto' />
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-6'>
+                <img src='/assets/contact.jpg' alt='Contact' class='w-100'/>
+            </div>
+            <div class='col-md-6'>
+                <form action=''>
+                    <div class="mb-3">
+                        <label for="name" class="form-label"> Tu nombre </label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" Jhon Smit "/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"> Tu Email </label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="JhonSmit@example.com"/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"> Tu Mensaje </label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <button type='submit' class='btn btn-outline-primary rounded-pill px-4 '> Enviar Mensaje <i /></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class='footer text-white'>
+        <div class='container'>
+            <footer class='py-5'>
+                <div class='row'>
+                    <div class='col-3'>
+                        <h4> InfoLab </h4>
+                    </div>
+
+                    <div class='col-2'>
+                        <h5> Links de interes </h5>
+                        <ul class='nav flex-column'>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Inicio </a>
+                            </li>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Servicios </a>
+                            </li>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Nosotros </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class='col-2'>
+                        <h5> Links de interes </h5>
+                        <ul class='nav flex-column'>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Blog </a>
+                            </li>
+                            <li class='nav-item mb-2'>
+                                <a href='' class='nav-link p-0 text-white'> Proyectos </a>
+                            </li>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Preguntas frecuentes </a>
+                            </li>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Reseñas </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class='col-4 offset-1'>
+                        <form>
+                            <h5> Suscribete para mas noticias </h5>
+                            <p> Resive las noticias y novedades .</p>
+                            <div class='d-flex w-100 grap-2'>
+                                <label htmlFrom='newletter1' class='visually-hidden'> Email </label>
+                                <button class='btn btn-light rounded-pill mx-5 px-4 ' type='button'> Suscribite </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class='d-flex justify-content-between pt-4 mt-4 border-top'>
+                    <p> Copyright &copy; 2022 Matias N Zamora all rigths reserved. </p>
+                    <ul class='list-unstyled d-flex'>
+                        <li class='ms-3'>
+                            <a class='link-light' href='https://www.instagram.com/matynzamora/'><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        </li>
+                        <li class='ms-3'>
+                            <a class='link-light' href='https://www.facebook.com/matias.zamora.5688/'><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+                        </li>
+                        <li class='ms-3'>
+                            <a class='link-light' href='https://www.linkedin.com/in/matiasnzamora/'><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f0c97317d0.js" crossorigin="anonymous"></script>
+</body>
+</html>

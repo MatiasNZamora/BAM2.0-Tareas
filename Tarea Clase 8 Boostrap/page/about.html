@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>InfoLab</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <title>Hello, world!</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/1682963598.ico">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand ms-3" href="/index.html">
+            <img class='w-25' src="/assets/logo.png" alt="">
+            InfoLab Solutions
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" justify-content-end collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav mx-5">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/page/contact.html"> Contact </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/page/about.html"> About </a>
+                </li>
+                <li class="nav-item dropdown">
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    
+    <!-- About -->
+    <div class='container my-5 py-5'>
+        <div class='row'>
+            <div class='col-md-6'>
+                <img src='/assets/about1.jpg' alt='about' class='w-100 mt-0' />
+            </div>
+            <div class='col-md-6'>
+                <h3 class='fs-5 mb-0'> Hola</h3>
+                <h1 class='display-6 mb-2'> Sobre <b>Nosotros</b></h1>
+                <hr class='w-50'/>
+                <p class='lead mb-4 '> 
+                    Somos una empresa lider en Argentina en lo que respecta al servicio de Clouding computing y servicios de desarrollo entendiendo que 
+                    la transformación digital no consiste simplemente en migrar la antigua infraestructura de TI a la nube mediante lift-and-shift por comodidad y para reducir los costes. 
+                    La transformación real abarca todo el negocio y favorece la adaptación de todos los empleados. 
+                    Somos plenamente conscientes de los requisitos tecnológicos actuales y de la necesidad de innovar continuamente.
+                    Por este motivo, muchas empresas abordan su transformación en la nube y sus mayores desafíos con InfoLab.
+                </p>
+                <div class="text-center">
+                    <a href="../index.html" class='btn btn-primary rounded-pill px-4 py-2'> Iniciemos </a>
+                    <a href="./contact.html" class='btn btn-outline-primary rounded-pill px-4 py-2 ms-2'> Contactarse </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Servicios -->
+    <div>
+        <div class='container mb-5 pb-5'>
+            <div class='col-12'>
+                <h3 class='fs-5 text-center mb-0'> Nuestros Servicios </h3>
+                <h1 class='display-6 text-center mb-4'> ¿ Que te <b> Ofrecemos ? </b></h1>
+                <hr class='w-25 mx-auto' />
+            </div>
+            <div class='row'>
+
+                <div class='col-md-6'>
+                    <img src='/assets/server.png' alt='about' class='w-100 mt-0' />
+                </div>
+                
+                <div class='col-md-6'>
+                    <div class="accordion accordion-flush  mt-5" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Almacenamiento
+                            </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> 
+                                <ul class="mt-4"> 
+                                    <li> Almacena todo tipo de datos, sea cual sea la cantidad, y accede a ellos siempre que lo necesites gracias al almacenamiento de objetos </li> </br>
+                                    <li> Transfiere datos con la ayuda de soluciones de transferencia online y offline, como el Servicio de transferencia de Storage y Transfer Appliance </li> </br>
+                                    <li> El almacenamiento en bloques de Persistent Disk está completamente integrado en productos de Google Cloud como Compute Engine y GKE </li> </br>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Computing
+                            </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="mt-4"> 
+                                    <li> Crea y ejecuta máquinas virtuales personalizables con Compute Engine. En el caso de las cargas de trabajo de escalado horizontal, las VMs Tau ofrecen una mejora de hasta el 42 % en la relación precio-rendimiento en comparación con ofertas de la nube similares </li> </br>
+                                    <li> Despliega, escala y gestiona contenedores automáticamente con Google Kubernetes Engine o Cloud Run </li> </br>
+                                    <li> Migra tus aplicaciones a tu propio ritmo pasándolas directamente a las máquinas virtuales o modernizándolas a contenedores de forma automática y sin tener que reescribir código </li> </br>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Bases de datos
+                            </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="mt-4"> 
+                                    <li> Reduce el gasto en mantenimiento usando bases de datos MySQL, PostgreSQL y SQL Server totalmente gestionadas. </li> </br>
+                                    <li> Simplifica las migraciones a Cloud SQL desde MySQL y PostgreSQL con Database Migration Service. </li> </br>
+                                    <li> Desarrolla completas aplicaciones con una base de datos de documentos totalmente gestionada, escalable y sin servidor. </li> </br>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Redes
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul class="mt-4"> 
+                                        <li> Protege tus aplicaciones y sitios web frente a los ataques web y de denegación de servicio con la ayuda de Cloud Armor. </li> </br>
+                                        <li> Escala de forma rápida y segura la distribución de contenido web y de vídeo con Cloud CDN. </li> </br>
+                                        <li> Examina distintas opciones de conectividad híbrida, como la VPN, el emparejamiento y la asistencia para empresas. </li> </br>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Herramientas de desarrollo
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul class="mt-4"> 
+                                        <li> Escribe, depura y ejecuta aplicaciones nativas de la nube con Cloud Code, de forma rápida y sencilla y tanto en entornos locales como en la nube. </li> </br>
+                                        <li> Utiliza Cloud Build para compilar, probar y desplegar software de forma continua, en todos los lenguajes y en diversos entornos. </li> </br>
+                                        <li> Si tienes una cuenta de Google, prueba gratis los entornos aislados y los tutoriales de productos de Google Cloud como Anthos, GKE y Cloud Run. </li> </br>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                IA y aprendizaje automático
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul class="mt-4"> 
+                                        <li> Crea aplicaciones de IA generativa de forma rápida y responsable con la tecnología más avanzada de Google. </li> </br>
+                                        <li> Ofrece un mejor servicio de atención al cliente gracias a Contact Center AI, que incluye agentes virtuales y productos con IA conversacional como Speech-to-Text. </li> </br>
+                                        <li> Crea, despliega y escala modelos de IA más eficaces con nuestra plataforma unificada de aprendizaje automático, Vertex AI. </li> </br>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class='footer text-white'>
+        <div class='container'>
+            <footer class='py-5'>
+                <div class='row'>
+                    <div class='col-3'>
+                        <h4> InfoLab </h4>
+                    </div>
+
+                    <div class='col-2'>
+                        <h5> Links de interes </h5>
+                        <ul class='nav flex-column'>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Inicio </a>
+                            </li>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Servicios </a>
+                            </li>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Nosotros </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class='col-2'>
+                        <h5> Links de interes </h5>
+                        <ul class='nav flex-column'>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Blog </a>
+                            </li>
+                            <li class='nav-item mb-2'>
+                                <a href='' class='nav-link p-0 text-white'> Proyectos </a>
+                            </li>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Preguntas frecuentes </a>
+                            </li>
+                            <li class='nav-item mb-2'>
+                                <a href='/' class='nav-link p-0 text-white'> Reseñas </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class='col-4 offset-1'>
+                        <form>
+                            <h5> Suscribete para mas noticias </h5>
+                            <p> Resive las noticias y novedades .</p>
+                            <div class='d-flex w-100 grap-2'>
+                                <label htmlFrom='newletter1' class='visually-hidden'> Email </label>
+                                <button class='btn btn-light rounded-pill mx-5 px-4 ' type='button'> Suscribite </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class='d-flex justify-content-between pt-4 mt-4 border-top'>
+                    <p> Copyright &copy; 2022 Matias N Zamora all rigths reserved. </p>
+                    <ul class='list-unstyled d-flex'>
+                        <li class='ms-3'>
+                            <a class='link-light' href='https://www.instagram.com/matynzamora/'><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        </li>
+                        <li class='ms-3'>
+                            <a class='link-light' href='https://www.facebook.com/matias.zamora.5688/'><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+                        </li>
+                        <li class='ms-3'>
+                            <a class='link-light' href='https://www.linkedin.com/in/matiasnzamora/'><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f0c97317d0.js" crossorigin="anonymous"></script>
+</body>
+</html>
