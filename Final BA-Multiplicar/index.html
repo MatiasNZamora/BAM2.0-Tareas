@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title> TP-Final Matias N Zamora </title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img src="/img/mz3.png" alt="" width="60px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"> Inicio </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/contact.html"> Contacto </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/contact.html"> Nosotros </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tecnologias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/pages/subpages/react.html"> React Js </a></li>
+                            <li><a class="dropdown-item" href="/pages/subpages/node.html"> Node Js </a></li>
+                            <li><a class="dropdown-item" href="/pages/subpages/php.html"> PHP </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/pages/subpages/webDev.html"> Web develop </a></li>
+                            <li><a class="dropdown-item" href="/pages/subpages/devops.html"> DevOps </a></li>
+                            <li><a class="dropdown-item" href="/pages/subpages/cloud.html"> Clouding Computing </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fin del navbar -->
+
+    <!-- carrucel  -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel/1366_2000.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/Back-end.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/Frontend-y-backend.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- fin del carrucel -->
+
+    <!-- precentacion -->
+    <section class="container">
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold">Insertate en el mundo Digital</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Al estar accesible 24 hs. los 365 días del año, mediante nuestro sitio web,
+                    podremos llegar con nuestra imagen y marca a incontables usuarios en todo el mundo.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <a href="/pages/contact.html" type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Contactar</a>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Tecnologias</button>
+                </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+                <div class="container px-5">
+                    <img src="img/intro.png " class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
+                        width="700" height="500" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin de la precentacion -->
+
+    <!-- Servicios -->
+    <section>
+        <div class="container px-4 py-5" id="icon-grid">
+            <h2 class="pb-2 border-bottom text-center"> Nuestros Servicios </h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                <div class="col d-flex align-items-start">
+                    <i class="fa-brands fa-figma bi text-muted flex-shrink-0 me-3 fs-1"></i>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4"> Diseño UX/UI </h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="fa-solid fa-globe bi text-muted flex-shrink-0 me-3 fs-1"></i>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4"> Mi Primera Web </h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="fa-solid fa-user-tie bi text-muted flex-shrink-0 me-3 fs-1"></i>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4"> Identidad Digital </h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="fa-regular fa-envelope bi text-muted flex-shrink-0 me-3 fs-1"></i>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4"> Web Mail </h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="fa-solid fa-gears bi text-muted flex-shrink-0 me-3 fs-1"></i>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4"> Software Service </h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="fa-brands fa-wordpress bi text-muted flex-shrink-0 me-3 fs-1"></i>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4"> Wordpress </h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="fa-solid fa-robot bi text-muted flex-shrink-0 me-3 fs-1"></i>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4"> Bots </h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="fa-solid fa-cloud-arrow-up bi text-muted flex-shrink-0 me-3 fs-1"></i>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4"> Clouding Computing </h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin de servicios -->
+
+    <!-- abilidades  -->
+    <section class="container">
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom text-center"> Nuestras Tecnologias </h2>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('img/react.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Frontend</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <a href="/pages/subpages/webDev.html" type="button"
+                                        class="btn btn-outline-primary btn-lg px-4">Ver</a>
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small class="fw-bold"> React </small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small class="fw-bold"> PHP </small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('/img/nodejs.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"> Backend </h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <a href="/pages/subpages/devops.html" type="button"
+                                        class="btn btn-outline-primary btn-lg px-4">Ver</a>
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small class="fw-bold"> Node JS </small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small class="fw-bold"> PHP </small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('/img/serv.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"> Clouding Computing </h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <a href="/pages/subpages/cloud.html" type="button"
+                                        class="btn btn-outline-primary btn-lg px-4">Ver</a>
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small class="fw-bold"> Server </small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small class="fw-bold"> AWS </small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin de abilidades  -->
+
+    <!-- staff -->
+    <div class="d-flex">
+        <div class="container my-lg-5 justify-content-around">
+            <div class="row mb-5 text-center">
+                <h2 class="pb-2 border-bottom text-center mb-lg-5"> Nuestro Staff </h2>
+                <div class="col-lg-4">
+                    <img src="/img/staff/naty.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="logo">
+                    <h2 class="fw-normal mt-2"> Naty </h2>
+                    <p> UX / UI Designer.</p>
+                    <a href="https://www.linkedin.com/in/nataly-montiveros-bb29831b6/" target="_blank" type="button" class="btn btn-outline-primary btn-lg px-4">Ver mas</a>
+
+                </div>
+                <div class="col-lg-4 justify-content-center">
+                    <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" -->
+                    <img src="/img/staff/matias.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="logo">
+                    <h2 class="fw-normal mt-2">Matias</h2>
+                    <p>Software Develop.</p>
+                    <a href="https://www.matiasnzamora.com.ar/" target="_blank" type="button" class="btn btn-outline-primary btn-lg px-4">Ver mas</a>
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="/img/staff/mateo.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="logo">
+                    <h2 class="fw-normal mt-2"> Mateo </h2>
+                    <p> Community Manager.</p>
+                    <a href="https://www.linkedin.com/in/mateo-nicol%C3%A1s-cattaneo-6b632235/" target="_blank" type="button" class="btn btn-outline-primary btn-lg px-4">Ver mas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- fin del staff -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img src="./img/Recurso 2.png" alt="logo" width="50px" class="rounded-2">
+                </a>
+                <span class="mb-3 mb-md-0 text-muted"> © 2022 Matias N Zamora </span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" target="_blank" href="https://github.com/MatiasNZamora"><i
+                            class="fa-brands fa-github fs-2"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank" href="https://www.instagram.com/matynzamora/"><i
+                            class="fa-brands fa-instagram fs-2"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank"
+                        href="https://www.linkedin.com/in/matiasnzamora/"><i class="fa-brands fa-linkedin fs-2"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <!-- fin del footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f0c97317d0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
