@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/mz3.png">
     <link rel="stylesheet" href="/css/style.css">
     <title> TP-Final Matias N Zamora </title>
 </head>
 
 <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand mx-5" href="/"><img src="/img/mz3.png" alt="" width="60px">ZimTech</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,52 +23,128 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/"> Inicio </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/contact.html"> Contacto </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="/pages/about.html"> Nosotros </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Dropdown link
+                            Tecnologias
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="/pages/subpages/react.html"> React Js </a></li>
+                            <li><a class="dropdown-item" href="/pages/subpages/node.html"> Node Js </a></li>
+                            <li><a class="dropdown-item" href="/pages/subpages/php.html"> PHP </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/pages/subpages/webDev.html"> Web develop </a></li>
+                            <li><a class="dropdown-item" href="/pages/subpages/cloud.html"> Clouding Computing </a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <div class="coming">
-        asdasdasdasd
+    <!-- fin del navbar -->
+    <!-- About -->
+    <div class='container my-2 py-2'>
+        <div class='row'>
+            <div class='col-md-6'>
+                <img src='../img/assets/about1.jpg' alt='about' class='w-100 mt-0' />
+            </div>
+            <div class='col-md-6'>
+                <h3 class='fs-5 mb-0'> Hola</h3>
+                <h1 class='display-6 mb-2'> Sobre <b>Nosotros</b></h1>
+                <hr class='w-50'/>
+                <p class='lead mb-4 '> 
+                    Somos una empresa lider en Argentina en lo que respecta al servicio de Clouding computing y servicios de desarrollo entendiendo que 
+                    la transformación digital no consiste simplemente en migrar la antigua infraestructura de TI a la nube mediante lift-and-shift por comodidad y para reducir los costes. 
+                    La transformación real abarca todo el negocio y favorece la adaptación de todos los empleados. 
+                    Somos plenamente conscientes de los requisitos tecnológicos actuales y de la necesidad de innovar continuamente.
+                    Por este motivo, muchas empresas abordan su transformación en la nube y sus mayores desafíos con InfoLab.
+                </p>
+                <div class="text-center">
+                    <a href="contact.html" class='btn btn-outline-primary rounded-pill px-4 py-2 ms-2'> Contactarse </a>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- fin del about -->
+    <!-- staff -->
+    <div class="d-flex">
+        <div class="container my-lg-5 justify-content-around">
+            <div class="row mb-5 text-center">
+                <!-- <h2 class="pb-2 border-bottom text-center mb-lg-5"> Nuestro Staff </h2> -->
+                <div class='col-12'>
+                    <h3 class='fs-5 text-center mb-0'> Nuestro Staff </h3>
+                    <h1 class='display-6 text-center mb-4'> ¿ Quiénes <b> Somos ? </b></h1>
+                    <hr class='w-25 mx-auto' />
+                </div>
+                <div class="col-lg-4">
+                    <img src="/img/staff/naty.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        alt="logo">
+                    <h2 class="fw-normal mt-2"> Naty </h2>
+                    <p> UX / UI Designer.</p>
+                    <a href="https://www.linkedin.com/in/nataly-montiveros-bb29831b6/" target="_blank" type="button"
+                        class="btn btn-outline-primary btn-lg px-4">Ver mas</a>
 
+                </div>
+                <div class="col-lg-4 justify-content-center">
+                    <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" -->
+                    <img src="/img/staff/matias.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        alt="logo">
+                    <h2 class="fw-normal mt-2">Matias</h2>
+                    <p>Software Develop.</p>
+                    <a href="https://www.matiasnzamora.com.ar/" target="_blank" type="button"
+                        class="btn btn-outline-primary btn-lg px-4">Ver mas</a>
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="/img/staff/mateo.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        alt="logo">
+                    <h2 class="fw-normal mt-2"> Mateo </h2>
+                    <p> Community Manager.</p>
+                    <a href="https://www.linkedin.com/in/mateo-nicol%C3%A1s-cattaneo-6b632235/" target="_blank"
+                        type="button" class="btn btn-outline-primary btn-lg px-4">Ver mas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin del staff -->
+    <!-- footer -->
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                    <img src="./img/Recurso 2.png" alt="logo" width="50px" class="rounded-2">
+                    <img src="../img/Recurso 2.png" alt="logo" width="50px" class="rounded-2">
                 </a>
                 <span class="mb-3 mb-md-0 text-muted"> © 2022 Matias N Zamora </span>
             </div>
-
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" target="_blank" href="https://github.com/MatiasNZamora"><i class="fa-brands fa-github"></i></a></li>
-                <li class="ms-3"><a class="text-muted" target="_blank" href=""><i class="fa-brands fa-instagram"></i></a></li>
-                <li class="ms-3"><a class="text-muted" target="_blank" href="https://www.linkedin.com/in/matiasnzamora/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank" href="https://github.com/MatiasNZamora"><i
+                            class="fa-brands fa-github fs-2"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank" href="https://www.instagram.com/matynzamora/"><i
+                            class="fa-brands fa-instagram fs-2"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank"
+                        href="https://www.linkedin.com/in/matiasnzamora/"><i class="fa-brands fa-linkedin fs-2"></i></a>
+                </li>
             </ul>
         </footer>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- fin del footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f0c97317d0.js" crossorigin="anonymous"></script>
 </body>
 
