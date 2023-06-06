@@ -24,23 +24,12 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html"> Inicio </a>
+                        <a class="nav-link active" aria-current="page" href="/"> Inicio </a>
                     <li class="nav-item">
                         <a class="nav-link" href="/pages/contact.html"> Contacto </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/pages/about.html"> Nosotros </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Tecnologias
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/pages/subpages/react.html"> React Js </a></li>
-                            <li><a class="dropdown-item" href="/pages/subpages/node.html"> Node Js </a></li>
-                            <li><a class="dropdown-item" href="/pages/subpages/php.html"> PHP </a></li>
-                        </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -57,6 +46,92 @@
         </div>
     </nav>
     <!-- fin del navbar -->
+    <!-- Servicios como front y back -->
+    <div class="container">
+        <div class="py-3">
+            <div class="my-4">
+                <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+                    <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                        <span class="fs-4"> Tecnologias y Servicios Web Developer </span>
+                    </a>
+                    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                        <a class="me-3 py-2 text-dark text-decoration-none" href="#"> UX / UI </a>
+                        <a class="me-3 py-2 text-dark text-decoration-none" href="#"> Desarrollador </a>
+                        <a class="me-3 py-2 text-dark text-decoration-none" href="#"> Marketing </a>
+                    </nav>
+                </div>
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                    <h1 class="display-4 fw-normal">Tecnologias</h1>
+                    <p class="fs-5 text-muted">
+                        Crea rápidamente una tabla de precios efectiva para sus clientes potenciales
+                        con este ejemplo de Bootstrap. Está construido con componentes y utilidades de Bootstrap
+                        predeterminados con poca personalización.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal"> Diseño Web </h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">Consultar<small class="text-muted fw-light">/mo</small>
+                                </h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Wordpress</li>
+                                    <li>Tiendas Online</li>
+                                    <li>Mi Primera web</li>
+                                    <li>Mi Identidad digital</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary"> Contratar </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Fronted</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">Consultar<small class="text-muted fw-light">/mo</small>
+                                </h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>React</li>
+                                    <li>Boostrap</li>
+                                    <li>Riact Native</li>
+                                    <li>PHP </li>
+                                </ul>
+                                <a href="../contact.html" type="button" class="w-100 btn btn-lg btn-primary"> Consultar </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                            <div class="card-header py-3 text-white bg-primary border-primary">
+                                <h4 class="my-0 fw-normal">Backend</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">Consultar<small class="text-muted fw-light">/mo</small>
+                                </h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li> Node JS </li>
+                                    <li>Express</li>
+                                    <li> Redux </li>
+                                    <li>Mongo y SQL</li>
+                                </ul>
+                                <a href="../contact.html" type="button" class="w-100 btn btn-lg btn-primary">Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fin de los Servicios como front y back -->
+    <!-- proyectos -->
     <div class="container my-5">
         <div class='col-12'>
             <h3 class='fs-5 text-center mb-0'> Web Desing </h3>
@@ -73,11 +148,12 @@
                         <div class="card shadow-sm">
                             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/proyects/bienes raices.png" alt="bienresraices">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Bienes Raices es una web orientada a la informacion y venta de casas y 
+                                    departamentos.
+                                </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="" type="button" class="btn btn-sm btn-outline-primary">Ir al proyecto</a>
+                                        <a href="http://bienesraices.matiasnzamora.com.ar/" target="_blank" type="button" class="btn btn-sm btn-outline-primary">Ir al proyecto</a>
                                     </div>
                                     <small class="text-muted">HTML , CSS</small>
                                 </div>
@@ -88,8 +164,9 @@
                         <div class="card shadow-sm">
                             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/proyects/taskerapp.png" alt="taskerapp">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Tasker app es una aplicacion de carga de tareas la cual te dice el clima y la 
+                                    hora habilitando la ubicacion.
+                                </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <a href="http://taskerapp.matiasnzamora.com.ar/" target="_blank" type="button" class="btn btn-sm btn-outline-primary">Ir al proyecto</a>
@@ -103,8 +180,9 @@
                         <div class="card shadow-sm">
                             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/proyects/magios.png" alt="magios">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Los magios es una tienda online en el que puedes encontrar varios productos
+                                    traidos de una Api.
+                                </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <a href="http://magiosshop.matiasnzamora.com.ar/" target="_blank" type="button" class="btn btn-sm btn-outline-primary">Ir al proyecto</a>
@@ -119,11 +197,10 @@
                         <div class="card shadow-sm">
                             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/proyects/magnolias.png" alt="magnolias">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Magnolias es un servicio de cremacion localizado en la Ciudad de La Rioja Capital.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="" type="button" class="btn btn-sm btn-outline-primary">Ir al proyecto</a>
+                                        <a href="https://magnoliasservicioscrematorios.com/" target="_blank" type="button" class="btn btn-sm btn-outline-primary">Ir al proyecto</a>
                                     </div>
                                     <small class="text-muted">Wordpress</small>
                                 </div>
@@ -134,8 +211,7 @@
                         <div class="card shadow-sm">
                             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/proyects/movil.png" alt="movil">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Movil es un sistema CRM donde se cargan datos de los dispositivos moviles para el Gobierno de La Rioja.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <a href="https://movil.matiasnzamora.com.ar/" target="_blank" type="button" class="btn btn-sm btn-outline-primary">Ir al proyecto</a>
@@ -149,11 +225,10 @@
                         <div class="card shadow-sm">
                             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/proyects/portafolios.png" alt="portafolios">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Este es mi portafolios el cual sigue la metodologia sigle page aplication.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="" type="button" class="btn btn-sm btn-outline-primary">Ir al proyecto</a>
+                                        <a href="https://matiasnzamora.com.ar/" target="_blank" type="button" class="btn btn-sm btn-outline-primary">Ir al proyecto</a>
                                     </div>
                                     <small class="text-muted"> Portafolio React </small>
                                 </div>
@@ -164,7 +239,7 @@
             </div>
         </div>
     </div>
-
+    <!-- fin de los proyectos -->
     <!-- logos -->
     <div class="container my-5">
         <div class='col-12'>
@@ -180,13 +255,8 @@
                     <hr class='w-25 mx-auto' />
                 </div>
                 <p class="lead">
-                    Nuestro equipo cuenta con certificacion internacional de Scrum fundamentals para poder llevar a cabo
-                    tus proyectos
-                    en el menor tiempo posible y con una metodologia optima y eficiente.
-                </p>
-                <p class="lead">
-                    "Scrum es un marco de trabajo para desarrollo ágil de software que se ha expandido a otras
-                    industrias".
+                    Iniciamos desde las bases de JavaScript hasta las funciones avanzadas dando como resultado un vasto
+                    aprendisaje de este tan poderoso lenguaje.
                 </p>
             </div>
             <div class="col-md-5">
@@ -201,9 +271,10 @@
                     <h1 class='display-6 text-center mb-4'> FullStack <b> JS </b></h1>
                     <hr class='w-25 mx-auto' />
                 </div>
-                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how
-                    this
-                    layout would work with some actual real-world content in place.</p>
+                <p class="lead">
+                    De la mano del Polo Tecnologico de La provincia de La Rioja logramos haceder a una capacitacion FullStack en la cual 
+                    nos brindaron una ruta de estudio con las siguientes tecnologias MongoDB, Express, React y NodeJs.
+                </p>
             </div>
             <div class="col-md-5 order-md-1">
                 <div class="col-md-5">
@@ -220,13 +291,9 @@
                     <hr class='w-25 mx-auto' />
                 </div>
                 <p class="lead">
-                    Nuestro equipo cuenta con certificacion internacional de Scrum fundamentals para poder llevar a cabo
-                    tus proyectos
-                    en el menor tiempo posible y con una metodologia optima y eficiente.
-                </p>
-                <p class="lead">
-                    "Scrum es un marco de trabajo para desarrollo ágil de software que se ha expandido a otras
-                    industrias".
+                    Junto a la iniciativa Nacional nos unimos a Codo a codo 4.0 . Un curso orientado a personas con conocimientos
+                    en framework React.
+                    A travez de este curso logramos perfeccionar aun mas nuestros conocimientos.
                 </p>
             </div>
             <div class="col-md-5">
