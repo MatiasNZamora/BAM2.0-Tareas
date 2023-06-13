@@ -1,0 +1,48 @@
+/* ---- GO TOP BUTTON ---- */
+
+.gtop-container {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: -1;
+}
+
+.gtop-button {
+    width: 0rem;
+    height: 0rem;
+    background: #2071b2;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: .5s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.gtop-button i {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    transition: .2s;
+}
+
+.show {
+    z-index: 10;
+}
+
+.show .gtop-button {
+    animation: popup .4s ease-in-out;
+    width: 5.6rem;
+    height: 5.6rem;
+    z-index: 11;
+}
+
+.show i {
+    transform: translate(-50%, -50%) scale(1);
+}
