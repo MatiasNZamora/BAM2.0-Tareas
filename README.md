@@ -13,4 +13,17 @@ La Tarea clase 8 consta de una pagina en HTML y Boostrap de una compania. <br>
 
 - HTML 
 - Boostrap
+- WebMail Api
+- FontAwesome
 - JS necesario para el funcionamiento de los dropdown.
+
+<br>
+El trabajo final consta de una web que publicita el trabajo de un grupo interdisiplinario de soluciones de software. <br>
+
+- HTML 
+- Boostrap
+- SwiftAlert2
+- JS 
+  * Go top.
+  * Envio de mail.
+  * Dropdown.
